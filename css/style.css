@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+nav {
+    background-color: black;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.4) 0px 13px 27px -5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
+}
+
+section {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+section p {
+    color: red;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+input {
+    height: 2em;
+    border-radius: 30px;
+    border: none;
+    margin: 0.5em;
+    padding-left: 1em;
+}
+
+input:focus {
+    outline: 1px solid black;
+}
+
+form button {
+    margin-top: 2em;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+form button:hover {
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
