@@ -9,6 +9,9 @@ include_once 'header.php'
         <input type="password" name="pwd" placeholder="Password...">
         <button type="submit" name="submit">Login</button>
     </form>
+    <div class="link-container">
+        <a href="reset-password.php">Forgot your password?</a>
+    </div>
     <?php
     if (isset($_GET["error"])) {
         switch ($_GET["error"]) {
